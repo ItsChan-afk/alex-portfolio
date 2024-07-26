@@ -1,0 +1,63 @@
+.portfolio-gallery{
+
+    /* for display */
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    background-color: #140F12;
+    
+    /* spacing */
+    gap: 1rem;
+   
+}
+
+@media (max-width: 750px) {
+    .portfolio-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-for-height, .gallery-for-width {
+        grid-column: span 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+.gallery-for-height{
+
+    grid-column: span 1;
+
+
+    /* for image styling */
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-width: 50%;
+    -moz-column-width: 50%;
+    column-width: 50%;
+  
+}
+
+.gallery-for-width{
+
+    grid-column: span 1;
+
+    /* for image styling */
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+
+    
+}
+
+/* to gap out the divs in the two containers  */
+.gallery-for-width > div , .gallery-for-height > div{
+    
+    padding: 0.5rem;
+}

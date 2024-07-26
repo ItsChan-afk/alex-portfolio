@@ -1,0 +1,140 @@
+
+
+.home-container{
+    display: grid;
+    grid-template-columns: repeat(10 , 1fr);
+    
+}
+
+/* for the left side of the container */
+
+.left-side-container{
+    margin-top: 1rem;
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+
+/* for small picture */
+
+.small-picture-container{
+    grid-column: span 6;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 6 rem;
+  
+
+    /* Ensure the grid contain */
+    position: relative; 
+    
+}
+
+#small-picture{
+    height: 15rem;
+    align-items: right;
+      
+
+     /* Aligns the item to the bottom */    
+    align-self: end;
+
+     /* Aligns the item to the right */
+    justify-self: end;
+
+
+}
+/* for icons */
+
+.brand-icons{
+    grid-column: span 1;
+    padding-top: 5rem;
+}
+
+#icon{
+
+    height: 2rem;
+    margin-top: 0.5rem;
+    transition: transform ease;
+}
+
+#icon:hover{
+    transform: scale(1.2);
+}
+
+/* the paragraph */
+
+.introduction-text{
+    text-align: center;
+    grid-column: 4 / span 3;
+}
+
+/* For the right side of the home container */
+
+
+.right-side-container{
+    grid-column: span 6;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.big-picture{
+    margin-top: 1rem;
+    grid-column: span 4;
+}
+
+#big-picture{
+    width: 100%;
+ 
+    transition: transform 0.5s ease;
+}
+
+#big-picture:hover{
+    transform: scale(1.05);
+}
+
+.hidden-text{
+    color: white;
+    grid-column: span 1;
+    align-self: center;
+}
+
+.our-footer{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+}
+
+
+/* Small Screen Responsive Purpose  */
+@media (max-width: 700px) {
+        .home-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left-side-container {
+        grid-column: span 1;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Adjust to 4 columns */
+        width: 100%; /* Make it full width */
+    }
+
+    .small-picture-container {
+        grid-column: span 3; /* Take 3 out of 4 columns */
+    }
+
+    .brand-icons {
+        grid-column: span 1; /* Take 1 out of 4 columns */
+    }
+
+    .introduction-text {
+        grid-column: span 4; /* Take the full width below the pictures */
+        margin-top: 1rem; /* Add some spacing */
+    }
+
+    .right-side-container {
+        display: none;
+    }
+} 
+
