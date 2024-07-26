@@ -1,15 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
-
-*{
-    font-family: 'Barlow', sans-serif;
-}
-
 .vtuber-container{
     display: grid;
     grid-template-columns: repeat(10 , 1fr) ;
     gap: 1rem;
 } 
-
 
 .vtuber-first-column > a > img ,
 .vtuber-second-column > a > img ,
@@ -24,8 +17,6 @@
     width: 100%;
     border-radius: 100%;
 }
-
-
 
 .vtuber-first-column{
     grid-column: 2 / span 2;
@@ -48,6 +39,11 @@
 
 }
 
+.vtuber-container a img:hover {
+    border: 2px solid #313030;
+    transform: scale(0.85);
+    transition: transform 0.3s ease, border 0.3s ease;
+}
 
 @media (max-width: 700px){
     .vtuber-container{
