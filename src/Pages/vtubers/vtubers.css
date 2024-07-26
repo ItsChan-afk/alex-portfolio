@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Barlow', sans-serif;
+}
+
+.vtuber-container{
+    display: grid;
+    grid-template-columns: repeat(10 , 1fr) ;
+    gap: 1rem;
+} 
+
+
+.vtuber-first-column > a > img ,
+.vtuber-second-column > a > img ,
+.vtuber-third-column > a > img ,
+.vtuber-fourth-column > a >  img 
+{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.vtuber-first-column > a > img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+
+
+.vtuber-first-column{
+    grid-column: 2 / span 2;
+    
+}
+
+.vtuber-second-column{
+    grid-column: span 2;
+
+}
+
+.vtuber-third-column{
+    grid-column: span 2;
+   
+}
+
+
+.vtuber-fourth-column{
+    grid-column: span 2;
+
+}
+
+
+@media (max-width: 700px){
+    .vtuber-container{
+        display: grid;
+        grid-template-columns:  1fr ;
+        gap: 1rem;
+        align-items: center;
+        justify-items: center;
+    } 
+    
+   
+    
+    .vtuber-first-column{
+        grid-column: span 1;
+    }
+    
+    .vtuber-second-column {
+        grid-column: span 1;
+    
+    }
+    
+    .vtuber-third-column{
+        grid-column: span 1;
+       
+    }
+    
+    
+    .vtuber-fourth-column{
+        grid-column: span 1;
+    
+    }
+
+    .vtuber-first-column , .vtuber-second-column , .vtuber-third-column , .vtuber-fourth-column{
+        text-align: center;
+        width: 50%;
+    }
+
+}

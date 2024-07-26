@@ -14,7 +14,11 @@ const Portfolio = () => {
   const widthImages = images.filter(img => img.type === 'width');
 
   return (
+    <>
+    <h1 style={{textAlign:'center' , color:'white'}}>My Portfolios</h1>
+    <br/>
     <div className='portfolio-gallery'>
+
       {/* Container for images with bigger height */}
       <div className='gallery-for-height'>
         {heightImages.map((item, index) => (
@@ -33,6 +37,7 @@ const Portfolio = () => {
         ))}
       </div>
     </div>
+    </>
   );
 }
 
