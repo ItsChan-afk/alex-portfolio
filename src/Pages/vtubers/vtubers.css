@@ -1,84 +1,34 @@
-.vtuber-container{
+.vtuber-container {
     display: grid;
-    grid-template-columns: repeat(10 , 1fr) ;
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
-} 
-
-.vtuber-first-column > a > img ,
-.vtuber-second-column > a > img ,
-.vtuber-third-column > a > img ,
-.vtuber-fourth-column > a >  img 
-{
-    width: 100%;
+    width: 80vw;
+    align-self: center;
+  }
+  
+  .vtuber-column > a > img {
+    width: 90%;
     border-radius: 100%;
-}
-
-.vtuber-first-column > a > img {
-    width: 100%;
-    border-radius: 100%;
-}
-
-.vtuber-first-column{
-    grid-column: 2 / span 2;
-    
-}
-
-.vtuber-second-column{
-    grid-column: span 2;
-
-}
-
-.vtuber-third-column{
-    grid-column: span 2;
-   
-}
-
-
-.vtuber-fourth-column{
-    grid-column: span 2;
-
-}
-
-.vtuber-container a img:hover {
-    border: 2px solid #313030;
-    transform: scale(0.85);
+  }
+  
+  @media (max-width: 700px) {
+    .vtuber-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      align-items: center;
+      justify-items: center;
+    }
+  
+    .vtuber-column {
+      text-align: center;
+      width: 50%;
+    }
+  }
+  
+  .vtuber-container a img:hover {
+    border: 4px solid #fff;
+    transform: scale(0.95);
     transition: transform 0.3s ease, border 0.3s ease;
-}
-
-@media (max-width: 700px){
-    .vtuber-container{
-        display: grid;
-        grid-template-columns:  1fr ;
-        gap: 1rem;
-        align-items: center;
-        justify-items: center;
-    } 
-    
-   
-    
-    .vtuber-first-column{
-        grid-column: span 1;
-    }
-    
-    .vtuber-second-column {
-        grid-column: span 1;
-    
-    }
-    
-    .vtuber-third-column{
-        grid-column: span 1;
-       
-    }
-    
-    
-    .vtuber-fourth-column{
-        grid-column: span 1;
-    
-    }
-
-    .vtuber-first-column , .vtuber-second-column , .vtuber-third-column , .vtuber-fourth-column{
-        text-align: center;
-        width: 50%;
-    }
-
-}
+  }
+  
