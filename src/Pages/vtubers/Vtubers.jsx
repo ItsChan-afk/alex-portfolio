@@ -1,8 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './vtubers.css';
-import vtubers from '/Users/mac/Documents/React/alex-portfolio/public/resources/vtubers.json';
 
 const Vtubers = () => {
+  const [vtubers, setVtubers] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    // Fetch data from public directory
+    fetch('/resources/vtubers.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        setVtubers(data);
+        setLoading(false);
+      })
+      .catch(error => {
+        console.error('Error fetching vtubers:', error);
+        setError(error);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error loading vtubers: {error.message}</p>;
+
   return (
     <>
       <h1 style={{ textAlign: 'center', color: 'white' }}>Vtuber Clients</h1>
@@ -22,3 +48,4 @@ const Vtubers = () => {
 };
 
 export default Vtubers;
+  
