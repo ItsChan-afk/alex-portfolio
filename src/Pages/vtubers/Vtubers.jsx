@@ -1,13 +1,13 @@
 import React from 'react'
 import './vtubers.css'
 
-import aria from '/Users/mac/Documents/React/alex-portfolio/public/images/vtuber showcase/1-Aria.png';
-import mochi from '/Users/mac/Documents/React/alex-portfolio/public/images/vtuber showcase/2-Mochi.png';
-import airi from '/Users/mac/Documents/React/alex-portfolio/public/images/vtuber showcase/3-Airi.png';
-import larxa from '/Users/mac/Documents/React/alex-portfolio/public/images/vtuber showcase/4-Larxa.png';
-import helleija from '/Users/mac/Documents/React/alex-portfolio/public/images/vtuber showcase/6-Helleija.png';
-import ninon from '/Users/mac/Documents/React/alex-portfolio/public/images/vtuber showcase/8-Ninon.png';
-import robot from '/Users/mac/Documents/React/alex-portfolio/public/images/vtuber showcase/7-Sherry.png'
+import aria from '/images/vtuber showcase/1-Aria.png';
+import mochi from '/images/vtuber showcase/2-Mochi.png';
+import airi from '/images/vtuber showcase/3-Airi.png';
+import larxa from '/images/vtuber showcase/4-Larxa.png';
+import helleija from '/images/vtuber showcase/6-Helleija.png';
+import ninon from '/images/vtuber showcase/8-Ninon.png';
+import robot from '/images/vtuber showcase/7-Sherry.png'
 
 
 
