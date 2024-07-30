@@ -28,17 +28,17 @@
 }
 
 #font {
-    margin: 0 0.625rem;
+    height: 2.5vh;
+    margin: 1rem;
+    transition-duration: 1s;
+    transition: transform ease 1s;
+
 }
 
-/* @media (max-width: 1000px) {
-    .footer {
-        grid-template-columns: repeat(6, 1fr);
-    }
-    .contact-me {
-        grid-column: 2 / span 4;
-    }
-} */
+#font :hover{
+    transform: scale(1.2);
+
+}
 
 @media (max-width: 768px) {
     .footer {

@@ -7,7 +7,6 @@ const Portfolio = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Fetch images data from public directory
     fetch('/resources/images.json')
       .then(response => {
         if (!response.ok) {
