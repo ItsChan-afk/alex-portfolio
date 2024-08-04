@@ -1,43 +1,42 @@
 [
-    {
-      "name": "Aria",
-      "link": "https://www.twitch.tv/aria_vlive",
-      "image": "/images/vtuber showcase/1-Aria.png"
-    },
-    {
-      "name": "Bri",
-      "link": "https://www.twitch.tv/breat",
-      "image": "/images/vtuber showcase/5-Brieatcookiebox.png"
-    },
-    {
-      "name": "h1sh1m0ch1",
-      "link": "https://www.twitch.tv/h1sh1m0ch1",
-      "image": "/images/vtuber showcase/2-Mochi.png"
-    },
-    {
-      "name": "Ninon",
-      "link": "https://www.twitch.tv/ninonvt",
-      "image": "/images/vtuber showcase/8-Ninon.png"
-    },
-    {
-      "name": "Airi",
-      "link": "https://www.twitch.tv/airinn_vt",
-      "image": "/images/vtuber showcase/3-Airi.png"
-    },
-    {
-      "name": "Sherry",
-      "link": "https://www.twitch.tv/sherryvt",
-      "image": "/images/vtuber showcase/7-Sherry.png"
-    },
-    {
-      "name": "Larxa",
-      "link": "https://www.twitch.tv/larxa",
-      "image": "/images/vtuber showcase/4-Larxa.png"
-    },
-    {
-      "name": "Helleija",
-      "link": "https://www.twitch.tv/helleija",
-      "image": "/images/vtuber showcase/6-Helleija.png"
-    }
-  ]
-  
+  {
+    "name": "Aria",
+    "link": "https://www.twitch.tv/aria_vlive",
+    "image": "/images/vtuber showcase/1-Aria.png"
+  },
+  {
+    "name": "h1sh1m0ch1",
+    "link": "https://www.twitch.tv/h1sh1m0ch1",
+    "image": "/images/vtuber showcase/2-Mochi.png"
+  },
+  {
+    "name": "Airi",
+    "link": "https://www.twitch.tv/airinn_vt",
+    "image": "/images/vtuber showcase/3-Airi.png"
+  },
+  {
+    "name": "Larxa",
+    "link": "https://www.twitch.tv/larxa",
+    "image": "/images/vtuber showcase/4-Larxa.png"
+  },
+  {
+    "name": "Bri",
+    "link": "https://www.youtube.com/c/briatcookiebox",
+    "image": "/images/vtuber showcase/5-Brieatcookiebox.png"
+  },
+  {
+    "name": "Helleija",
+    "link": "https://www.twitch.tv/helleija",
+    "image": "/images/vtuber showcase/6-Helleija.png"
+  },
+  {
+    "name": "Sherry",
+    "link": "https://www.twitch.tv/sherryvt",
+    "image": "/images/vtuber showcase/7-Sherry.png"
+  },
+  {
+    "name": "Ninon",
+    "link": "https://www.twitch.tv/ninonvt",
+    "image": "/images/vtuber showcase/8-Ninon.png"
+  }
+]
