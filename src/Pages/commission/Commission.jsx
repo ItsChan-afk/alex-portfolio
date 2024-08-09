@@ -30,13 +30,13 @@ function Commission() {
         <TwoCarousel props={semiRealismCarousel} />
       </div>
       <div className='semi-realism-article'>
-        <MyArticle props={semiRealismArticle} />
+        <MyArticle items={semiRealismArticle} title="Semi Realism"/>
       </div>
 
       {/* spacing ------------------------------ */}
 
       <div className='semi-realism-carousel'>
-        <MyArticle props={animeArtArticle} />
+        <MyArticle items={animeArtArticle} title="Anime Art" />
       </div>
       <div className='semi-realism-article'>
         <TwoCarousel props={animeArtCarousel} />
@@ -48,12 +48,12 @@ function Commission() {
         <OneCarousel referenceSheet={referenceCarousel} />
       </div>
       <div className='semi-realism-article'>
-        <MyArticle props={referenceArticle} />
+        <MyArticle items={referenceArticle} title='Reference Sheet'/>
       </div>
 
       {/* spacing ------------------------------ */}
       <div className='semi-realism-carousel'>
-        <MyArticle props={chibiArticle} />
+        <MyArticle items={chibiArticle} title='Chibi' />
       </div>
       <div className='semi-realism-article'>
         <OneCarousel referenceSheet={chibiCarousel} />

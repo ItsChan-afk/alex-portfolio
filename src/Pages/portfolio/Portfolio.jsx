@@ -34,10 +34,9 @@ const Portfolio = () => {
 
   return (
     <>
-      <h1 style={{ textAlign: 'center', color: 'white' }}>My Portfolios</h1>
+      <h1 style={{ textAlign: 'center', color: 'white' }}></h1>
       <br />
       <div className='portfolio-gallery'>
-        {/* Container for images with bigger height */}
         <div className='gallery-for-height'>
           {heightImages.map((item, index) => (
             <div className='pic' key={index}>

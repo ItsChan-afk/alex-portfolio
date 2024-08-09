@@ -2,11 +2,11 @@
     "semiRealism": [
         {
             "description": "Price Range",
-            "price": "$400"
+            "price": "$400+"
         },
         {
             "description": "Additional background",
-            "price": "$50"
+            "price": "$50+"
         },
         {
             "description": "I'll only be taking up to <strong>Bust Shot</strong> for this <strong>style</strong>",
@@ -16,53 +16,57 @@
     "animeArtStyle": [
         {
             "description": "Head Shot",
-            "price": "$100"
+            "price": "$100+"
         },
         {
             "description": "Bust Shot",
-            "price": "$200"
+            "price": "$200+"
         },
         {
             "description": "Full body/ Up to thigh",
-            "price": "$500"
+            "price": "$500+"
         },
         {
             "description": "Additional Character",
-            "price": "$100"
+            "price": "$100+"
         },
         {
             "description" : "Additional background",
-            "price" : "$100/50"
+            "price" : "$100/50+"
         }
     ]
     ,
     "characterSheet": [
         {
             "description": "Just Concept Art With No Sheet",
-            "price": "$300"
+            "price": "$300+"
         },
         {
             "description": "Sheet With Reference Provided",
-            "price": "$450"
+            "price": "$450+"
         },
         {
             "description": "Sheet And Outfit Design",
-            "price": "$600"
+            "price": "$600+"
         }
         ,
         {
             "description" : "Full Character Design And Reference Sheet",
-            "price" : "$800"
+            "price" : "$800+"
         }
     ],
     "chibi": [
         {
             "description": "Price Range",
-            "price": "$80"
+            "price": "$80+"
         },
         {
             "description": "Additional Character",
-            "price": "$50"
+            "price": "$50+"
+        },
+        {
+            "description": "BackGround",
+            "price": "$50+"
         }
     ]
 

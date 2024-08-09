@@ -7,10 +7,8 @@
     scrollbar-width: thin;
     scrollbar-color: rgba(143, 0, 0, 0.5) transparent;
     border-radius: 1rem;
-    border: 2px solid white;
+    border: 2px solid rgba(143, 0, 0, 0.5);
 }
-
-
 
 .item {
     display: flex;
@@ -41,3 +39,4 @@
     border-radius: 0.5rem;
     max-height: 1rem;
 }
+
