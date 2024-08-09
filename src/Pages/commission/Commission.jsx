@@ -1,8 +1,8 @@
 import React from 'react';
 import TwoCarousel from './my-carousels/TwoCarousel';
 import MyArticle from './my-article/MyArticle';
-import articleData from '/Users/mac/Documents/React/alex-portfolio/public/resources/article.json';
-import carouselData from '/Users/mac/Documents/React/alex-portfolio/public/resources/commisions.json';
+import articleData from '/public/resources/article.json';
+import carouselData from '/public/resources/commisions.json';
 import './commission.css';
 import OneCarousel from './my-carousels/OneCarousel';
 
