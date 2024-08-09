@@ -7,13 +7,12 @@ import './footer.css'
 const Footer = () => {
     return (
         <div className="footer">
-            <div className="footer-first" ></div>
-            <div className='contact-me'>
+             <div className='contact-me'>
                 <FontAwesomeIcon icon={faEnvelope} id="font" />
                 <span>Contact Me For Work</span>
                 <FontAwesomeIcon icon={faDiscord} id="font" />
             </div>
-            <div className="footer-last" ></div>
+            {/* <div className="footer-last" ></div> */}
         </div>
     );
 }

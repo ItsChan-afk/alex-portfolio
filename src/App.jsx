@@ -8,7 +8,6 @@ const App = () => {
     <div className="app-container">
       <NavBar />
       <main>
-        {/* Your main content goes here */}
       </main>
       <footer>
         <Footer />

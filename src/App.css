@@ -10,18 +10,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* Ensure the container takes up at least the full viewport height */
 }
 
 main {
     flex: 1;
-    /* Grow to fill available space, pushing the footer down */
 }
 
 footer {
-    /* Example footer background color */
     color: white;
-    /* Example text color */
     padding: 1rem;
     text-align: center;
     width: 100%;
