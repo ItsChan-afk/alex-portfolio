@@ -1,17 +1,46 @@
+/* Default styles for larger screens */
 .commission-container {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    gap: 2rem; /* Add some space between columns */
 }
 
-.semi-realism-carousel {
+.left-container {
     grid-column: 1 / span 5;
     margin: 2rem;
     margin-left: 5rem;
 }
 
-.semi-realism-article {
+.right-container {
     grid-column: 6 / span 5;
     margin: 2rem;
     margin-right: 5rem;
 }
 
+@media (max-width: 768px) {
+    .commission-container {
+        grid-template-columns: 1fr;
+        gap: 1rem; /* Reduce space between columns on mobile */
+        
+    }
+
+    .left-container,
+    .right-container {
+        grid-column: 1 / -1;
+        margin: 1rem;
+    }
+
+    .left-container {
+        margin-left: 0;
+    }
+
+    .right-container {
+        margin-right: 0;
+    }
+
+    /* Ensure that the slider inside .left-container is responsive */
+    .left-container .slider-class { /* Replace .slider-class with the actual class of your slider */
+        width: 100%;
+        /* Additional styles for responsiveness */
+    }
+}

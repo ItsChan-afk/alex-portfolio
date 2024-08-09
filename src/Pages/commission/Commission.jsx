@@ -1,12 +1,10 @@
 import React from 'react';
-import TwoCarousel from './my-carousels/TwoCarousel'
-import MyArticle from './my-article/MyArticle'
-import articleData from '/Users/mac/Documents/React/alex-portfolio/public/resources/article.json'
-import carouselData from '/Users/mac/Documents/React/alex-portfolio/public/resources/commisions.json'
-import './commission.css'
+import TwoCarousel from './my-carousels/TwoCarousel';
+import MyArticle from './my-article/MyArticle';
+import articleData from '/Users/mac/Documents/React/alex-portfolio/public/resources/article.json';
+import carouselData from '/Users/mac/Documents/React/alex-portfolio/public/resources/commisions.json';
+import './commission.css';
 import OneCarousel from './my-carousels/OneCarousel';
-
-// import commisionsData from '/public/resources/commisions.json'; 
 
 function Commission() {
   const semiRealismArticle = articleData.semiRealism;
@@ -21,49 +19,45 @@ function Commission() {
   const chibiArticle = articleData.chibi;
   const chibiCarousel = carouselData.chibi;
 
-
-
   return (
     <div className="commission-container">
-
-      <div className='semi-realism-carousel'>
+      <div className='left-container'>
         <TwoCarousel props={semiRealismCarousel} />
       </div>
-      <div className='semi-realism-article'>
-        <MyArticle items={semiRealismArticle} title="Semi Realism"/>
+      <div className='right-container'>
+        <MyArticle items={semiRealismArticle} title="Semi Realism" />
       </div>
 
       {/* spacing ------------------------------ */}
 
-      <div className='semi-realism-carousel'>
-        <MyArticle items={animeArtArticle} title="Anime Art" />
-      </div>
-      <div className='semi-realism-article'>
+      <div className='left-container'>
         <TwoCarousel props={animeArtCarousel} />
       </div>
+      <div className='right-container'>
+
+        <MyArticle items={animeArtArticle} title="Anime Art" />
+      </div>
 
       {/* spacing ------------------------------ */}
 
-      <div className='semi-realism-carousel'>
+      <div className='left-container'>
         <OneCarousel referenceSheet={referenceCarousel} />
       </div>
-      <div className='semi-realism-article'>
-        <MyArticle items={referenceArticle} title='Reference Sheet'/>
+      <div className='right-container'>
+        <MyArticle items={referenceArticle} title='Reference' />
       </div>
 
       {/* spacing ------------------------------ */}
-      <div className='semi-realism-carousel'>
-        <MyArticle items={chibiArticle} title='Chibi' />
-      </div>
-      <div className='semi-realism-article'>
+      <div className='left-container'>
         <OneCarousel referenceSheet={chibiCarousel} />
+
       </div>
+      <div className='right-container'>
+        <MyArticle items={chibiArticle} title='Chibi' />
 
-
+      </div>
     </div>
-  )
+  );
 }
 
-export default Commission
-
-
+export default Commission;

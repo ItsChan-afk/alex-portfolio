@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 import './twocarousel.css';
 
 
-const TwoCarousel = ({props}) => {
+const TwoCarousel = ({ props }) => {
     const [images, setImages] = useState([]);
 
     useEffect(() => {
@@ -19,15 +19,37 @@ const TwoCarousel = ({props}) => {
         infinite: true,
         speed: 500,
         slidesToShow: 2,
-        slidesToScroll: 1
-      };
-
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024, // Tablet or larger screens
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768, // Mobile screens
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480, // Extra small screens
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    };
     return (
             <div className='slider-container'>
                 <Slider {...settings}>
                     {images.map((image, index) => (
                         <div key={index} className='image-slide-container'>
-                            <img src={image} alt={`slide-${index}`} className='one-images'/>
+                            <img src={image} alt={`slide-${index}`} className='one-images' />
                         </div>
                     ))}
                 </Slider>

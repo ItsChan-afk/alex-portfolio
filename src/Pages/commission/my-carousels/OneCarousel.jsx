@@ -23,6 +23,7 @@ const OneCarousel = ({ referenceSheet }) => {
     };
 
     return (
+        <>
         <div className='slider-container'>
             <Slider {...settings}>
                 {images.map((image, index) => (
@@ -32,6 +33,7 @@ const OneCarousel = ({ referenceSheet }) => {
                 ))}
             </Slider>
         </div>
+        </>
     );
 };
 
