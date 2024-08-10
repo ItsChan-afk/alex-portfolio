@@ -10,7 +10,7 @@
     padding: 1rem;
 }
 
-.image-slide-container > img{
+.image-slide-container>img {
     height: 45vh;
     max-height: 45vh;
     width: 100%;
@@ -29,4 +29,31 @@
 
 .slick-dots li.slick-active button:before {
     color: #a6a6a6;
+}
+
+@media (max-width: 768px) {
+    .slider-container {
+        width: 80vw;
+        height: auto;
+   
+        align-self: center; 
+    }
+
+    .slick-dots li button:before {
+        font-size: 8px;
+        /* Adjust dot size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .slider-container {
+        width: 80vw;
+
+        margin: 5rem;
+    }
+
+    .slick-dots li button:before {
+        font-size: 6px;
+        /* Further adjust dot size */
+    }
 }
