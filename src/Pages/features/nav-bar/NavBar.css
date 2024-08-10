@@ -3,37 +3,39 @@
 .nav-bar {
     font-family: 'Barlow', sans-serif;
     background-color: #140F12;
-    padding: 10px 20px;
+    padding: 20px 0;
     border-bottom: 5px solid #690c0c;
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .logo {
+    display: inline-block;
     color: #fbfbfb;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 12px;
+    margin-left: 20px;
 }
 
 .menu-icon {
+    display: none;
     font-size: 30px;
     cursor: pointer;
     color: #fbfbfb;
-    display: none;
+    margin-right: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 
 .nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    align-items: center;
+    text-align: center;
 }
 
 .nav-item {
-    margin: 0 20px;
+    display: inline-block;
+    margin: 0 70px;
 }
 
 .nav-item a {
@@ -55,28 +57,30 @@
         display: block;
     }
 
+    .nav-bar {
+        padding: 10px 0;
+        border-bottom: 0 solid #690c0c;
+    }
+
     .nav-list {
         display: none;
         flex-direction: column;
         background-color: #140F12;
         position: absolute;
         top: 60px;
-        right: 0;
         width: 100%;
         z-index: 10;
-        padding-top: 1rem;
-        align-items: center;
+        padding-top: 4rem;
     }
 
     .nav-item {
-        margin: 10px 0;
+        display: block;
+        margin: 20px 0;
     }
 
     .nav-item a {
         display: block;
-        padding: 15px;
-        width: 100%;
-        text-align: center;
+        padding: 20px;
     }
 
     .nav-list.show {

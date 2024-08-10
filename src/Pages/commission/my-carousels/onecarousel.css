@@ -33,9 +33,8 @@
 
 @media (max-width: 768px) {
     .slider-container {
-        width: 80vw;
+        width: 65vw;
         height: auto;
-   
         align-self: center; 
     }
 
@@ -47,8 +46,7 @@
 
 @media (max-width: 480px) {
     .slider-container {
-        width: 80vw;
-
+        width: 60vw;
         margin: 5rem;
     }
 

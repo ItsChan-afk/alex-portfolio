@@ -32,6 +32,8 @@
 
     .left-container {
         margin-left: 0;
+        display: grid;
+        place-items: center;
     }
 
     .right-container {
