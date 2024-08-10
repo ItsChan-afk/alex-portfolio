@@ -19,25 +19,26 @@
 
 @media (max-width: 768px) {
     .commission-container {
-        grid-template-columns: 1fr;
-        gap: 1rem; /* Reduce space between columns on mobile */
-        
+        display: flex; /* Change to flexbox layout */
+        flex-direction: column; /* Stack items vertically */
+        gap: 1rem; /* Reduce space between sections */
     }
 
     .left-container,
     .right-container {
-        grid-column: 1 / -1;
-        margin: 1rem;
+        width: 100%; /* Full width for each container */
+        margin: 0; /* Remove margins */
     }
 
     .left-container {
-        margin-left: 0;
-        display: grid;
-        place-items: center;
+        display: flex;
+        justify-content: center; /* Center content horizontally */
+        margin-bottom: 1rem; /* Add space below */
     }
 
     .right-container {
-        margin-right: 0;
+        display: flex;
+        justify-content: center; /* Center content horizontally */
     }
 
     /* Ensure that the slider inside .left-container is responsive */
