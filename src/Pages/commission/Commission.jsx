@@ -5,6 +5,7 @@ import articleData from '/public/resources/article.json';
 import carouselData from '/public/resources/commisions.json';
 import './commission.css';
 import OneCarousel from './my-carousels/OneCarousel';
+import CarouselContainer from './CarouselContainer';
 
 function Commission() {
   const semiRealismArticle = articleData.semiRealism;
@@ -19,6 +20,7 @@ function Commission() {
   const chibiArticle = articleData.chibi;
   const chibiCarousel = carouselData.chibi;
 
+
   return (
     <div className="commission-container">
       <div className='left-container'>
@@ -28,7 +30,6 @@ function Commission() {
         <MyArticle items={semiRealismArticle} title="Semi Realism" />
       </div>
 
-      {/* spacing ------------------------------ */}
 
       <div className='left-container'>
         <TwoCarousel props={animeArtCarousel} />
@@ -37,9 +38,6 @@ function Commission() {
 
         <MyArticle items={animeArtArticle} title="Anime Art" />
       </div>
-
-      {/* spacing ------------------------------ */}
-
       <div className='left-container'>
         <OneCarousel referenceSheet={referenceCarousel} />
       </div>
@@ -47,14 +45,12 @@ function Commission() {
         <MyArticle items={referenceArticle} title='Reference' />
       </div>
 
-      {/* spacing ------------------------------ */}
       <div className='left-container'>
         <OneCarousel referenceSheet={chibiCarousel} />
 
       </div>
       <div className='right-container'>
         <MyArticle items={chibiArticle} title='Chibi' />
-
       </div>
     </div>
   );

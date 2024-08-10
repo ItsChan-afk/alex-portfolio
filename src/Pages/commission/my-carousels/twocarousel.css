@@ -12,7 +12,6 @@
 .image-slide-container>img {
     width: 100%;
     height: auto;
-    /* Maintain aspect ratio */
     object-fit: cover;
     object-position: center;
 }

@@ -1,3 +1,4 @@
+/* Default styles */
 .article-container {
     max-height: 50vh;
     width: 100%;
@@ -28,7 +29,7 @@
     width: 75%;
 }
 
-
+/* Custom scrollbar styles */
 .article-container::-webkit-scrollbar {
     width: 0.5rem;
     max-height: 2rem;
@@ -40,3 +41,44 @@
     max-height: 1rem;
 }
 
+/* Responsive styles */
+@media (max-width: 768px) {
+    .article-container {
+        max-height: 60vh; /* Adjust height for smaller screens */
+        padding: 0.5rem;
+    }
+
+    .item {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .price {
+        width: 100%; /* Make price take full width */
+        text-align: left; /* Align text to the left */
+        margin-top: 0.5rem; /* Add margin to separate from description */
+    }
+
+    .description {
+        width: 100%; /* Make description take full width */
+    }
+}
+
+@media (max-width: 480px) {
+    .article-container {
+        max-height: 70vh; /* Further adjust height for very small screens */
+        padding: 0.25rem;
+    }
+
+    .item {
+        padding: 0.25rem; /* Reduce padding for very small screens */
+    }
+
+    .price {
+        font-size: 0.9rem; /* Reduce font size */
+    }
+
+    .description {
+        font-size: 0.9rem; /* Reduce font size */
+    }
+}

@@ -1,7 +1,6 @@
 .slider-container {
-    width: 40vw;
-    height: 50vh;
-    align-items: center;
+    width: 100%;
+    height: 80%;
 }
 
 .image-slide-container {
@@ -10,10 +9,11 @@
     padding: 1rem;
 }
 
-.image-slide-container>img {
-    height: 45vh;
-    max-height: 45vh;
+.image-slide-container > img {
     width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
 }
 
 .slick-dots li button:before {
@@ -33,19 +33,6 @@
 
 @media (max-width: 768px) {
     .slider-container {
-        width: 65vw;
-        height: auto;
-        align-self: center; 
-    }
-
-    .slick-dots li button:before {
-        font-size: 8px;
-        /* Adjust dot size for smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .slider-container {
         width: 60vw;
         margin: 5rem;
     }
@@ -55,3 +42,4 @@
         /* Further adjust dot size */
     }
 }
+

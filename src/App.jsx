@@ -10,16 +10,11 @@ const App = () => {
   return (
     <div className="app-container">
       <NavBar />
-      <main>
-      </main>
-      <footer>
+
         <Footer />
-      </footer>
+
     </div>
-    // <div className='test-bug'>
-    //   <TwoCarousel props={carouselData.semiRealism} />
-    //   <OneCarousel referenceSheet={carouselData.referenceSheet} />
-    // </div>
+
   );
 }
 
