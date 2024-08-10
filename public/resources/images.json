@@ -94,23 +94,19 @@
             "src": "/images/Portfolio Tab/19.png",
             "type": "height"
         },
+
         {
             "id": 20,
-            "src": "/images/Portfolio Tab/20.jpg",
-            "type": "height"
-        },
-        {
-            "id": 21,
             "src": "/images/Portfolio Tab/dazzle.png",
             "type": "width"
         },
         {
-            "id": 22,
+            "id": 21,
             "src": "/images/Portfolio Tab/Cloud_Study.png",
             "type": "width"
         },
         {
-            "id": 23,
+            "id": 22,
             "src": "/images/Portfolio Tab/dota2_guild.png",
             "type": "width"
         }
