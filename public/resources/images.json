@@ -1,23 +1,117 @@
     [
-        { "id": 1, "src": "/images/Portfolio Tab/1.png", "type": "height" },
-        { "id": 2, "src": "/images/Portfolio Tab/2.png", "type": "height" },
-        { "id": 3, "src": "/images/Portfolio Tab/3.png", "type": "width" },
-        { "id": 4, "src": "/images/Portfolio Tab/4.png", "type": "height" },
-        { "id": 5, "src": "/images/Portfolio Tab/5.png", "type": "height" },
-        { "id": 6, "src": "/images/Portfolio Tab/6.png", "type": "width" },
-        { "id": 7, "src": "/images/Portfolio Tab/7.png", "type": "height" },
-        { "id": 8, "src": "/images/Portfolio Tab/8.png", "type": "height" },
-        { "id": 9, "src": "/images/Portfolio Tab/9.png", "type": "width" },
-        { "id": 10, "src": "/images/Portfolio Tab/10.png", "type": "height" },
-        { "id": 11, "src": "/images/Portfolio Tab/11.png", "type": "height" },
-        { "id": 12, "src": "/images/Portfolio Tab/12.png", "type": "width" },
-        { "id": 13, "src": "/images/Portfolio Tab/13.png", "type": "height" },
-        { "id": 14, "src": "/images/Portfolio Tab/14.png", "type": "height" },
-        { "id": 15, "src": "/images/Portfolio Tab/15.png", "type": "width" },
-        { "id": 16, "src": "/images/Portfolio Tab/16.png", "type": "height" },
-        { "id": 17, "src": "/images/Portfolio Tab/17.png", "type": "height" },
-        { "id": 18, "src": "/images/Portfolio Tab/18.png", "type": "height" },
-        { "id": 19, "src": "/images/Portfolio Tab/19.png", "type": "height" },
-        { "id": 20, "src": "/images/Portfolio Tab/20.jpg", "type": "height" }
-
+        {
+            "id": 1,
+            "src": "/images/Portfolio Tab/1.png",
+            "type": "height"
+        },
+        {
+            "id": 2,
+            "src": "/images/Portfolio Tab/2.png",
+            "type": "height"
+        },
+        {
+            "id": 3,
+            "src": "/images/Portfolio Tab/3.png",
+            "type": "width"
+        },
+        {
+            "id": 4,
+            "src": "/images/Portfolio Tab/4.png",
+            "type": "height"
+        },
+        {
+            "id": 5,
+            "src": "/images/Portfolio Tab/5.png",
+            "type": "height"
+        },
+        {
+            "id": 6,
+            "src": "/images/Portfolio Tab/6.png",
+            "type": "width"
+        },
+        {
+            "id": 7,
+            "src": "/images/Portfolio Tab/7.png",
+            "type": "height"
+        },
+        {
+            "id": 8,
+            "src": "/images/Portfolio Tab/8.png",
+            "type": "height"
+        },
+        {
+            "id": 9,
+            "src": "/images/Portfolio Tab/9.png",
+            "type": "width"
+        },
+        {
+            "id": 10,
+            "src": "/images/Portfolio Tab/10.png",
+            "type": "height"
+        },
+        {
+            "id": 11,
+            "src": "/images/Portfolio Tab/11.png",
+            "type": "height"
+        },
+        {
+            "id": 12,
+            "src": "/images/Portfolio Tab/12.png",
+            "type": "width"
+        },
+        {
+            "id": 13,
+            "src": "/images/Portfolio Tab/13.png",
+            "type": "height"
+        },
+        {
+            "id": 14,
+            "src": "/images/Portfolio Tab/14.png",
+            "type": "height"
+        },
+        {
+            "id": 15,
+            "src": "/images/Portfolio Tab/15.png",
+            "type": "width"
+        },
+        {
+            "id": 16,
+            "src": "/images/Portfolio Tab/16.png",
+            "type": "height"
+        },
+        {
+            "id": 17,
+            "src": "/images/Portfolio Tab/17.png",
+            "type": "height"
+        },
+        {
+            "id": 18,
+            "src": "/images/Portfolio Tab/18.png",
+            "type": "height"
+        },
+        {
+            "id": 19,
+            "src": "/images/Portfolio Tab/19.png",
+            "type": "height"
+        },
+        {
+            "id": 20,
+            "src": "/images/Portfolio Tab/20.jpg",
+            "type": "height"
+        },
+        {
+            "id": 21,
+            "src": "/images/Portfolio Tab/dazzle.png",
+            "type": "width"
+        },
+        {
+            "id": 22,
+            "src": "/images/Portfolio Tab/Cloud_Study.png",
+            "type": "width"
+        },
+        {
+            "id": 23,
+            "src": "/images/Portfolio Tab/dota2_guild.png",
+            "type": "width"
+        }
     ]

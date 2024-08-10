@@ -13,13 +13,21 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 function Icons() {
   return (
     <>
-      <FontAwesomeIcon id='icon' icon={faTwitter} style={{ color: 'white' }} />
+      <a href="https://www.twitch.tv/are_xu" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon id='icon' icon={faTwitch} style={{ color: 'white' }} />
+      </a>
       <br></br>
-      <FontAwesomeIcon id='icon' icon={faInstagram} style={{ color: 'white' }} />
+      <a href='https://www.instagram.com/are.xu/'>
+        <FontAwesomeIcon id='icon' icon={faInstagram} style={{ color: 'white' }} />
+      </a>
       <br></br>
-      <FontAwesomeIcon id='icon' icon={faTwitch} style={{ color: 'white' }} />
+      <a href='https://www.twitch.tv/are_xu'>
+        <FontAwesomeIcon id='icon' icon={faTwitch} style={{ color: 'white' }} />
+      </a>
       <br></br>
-      <FontAwesomeIcon id='icon' icon={faYoutube} style={{ color: 'white' }} />
+      <a href='https://www.youtube.com/@are_xu'>
+        <FontAwesomeIcon id='icon' icon={faYoutube} style={{ color: 'white' }} />
+      </a>
       <br></br>
     </>
   )

@@ -9,9 +9,13 @@ const Footer = () => {
         <div className="footer">
             <div className='footer-first'></div>
             <div className='contact-me'>
+
                 <FontAwesomeIcon icon={faEnvelope} id="font" />
+
                 <span>Contact Me For Work</span>
-                <FontAwesomeIcon icon={faDiscord} id="font" />
+                <a href='https://discord.com/users/are_xu'>
+                    <FontAwesomeIcon icon={faDiscord} id="font" />
+                </a>
             </div>
             <div className='footer-last'></div>
         </div>
