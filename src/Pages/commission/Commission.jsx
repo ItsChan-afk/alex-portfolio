@@ -5,7 +5,6 @@ import articleData from '/public/resources/article.json';
 import carouselData from '/public/resources/commisions.json';
 import './commission.css';
 import OneCarousel from './my-carousels/OneCarousel';
-import CarouselContainer from './CarouselContainer';
 
 function Commission() {
   const semiRealismArticle = articleData.semiRealism;
