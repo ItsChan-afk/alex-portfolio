@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './home.css';
+import {Link} from "react-router-dom"
 import picture2 from '/images/Homepage/bunny_plus_watermark.png';
 import picture from '/images/Homepage/show_case.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -21,8 +22,8 @@ function Icons() {
         <FontAwesomeIcon id='icon' icon={faInstagram} style={{ color: 'white' }} />
       </a>
       <br></br>
-      <a href='https://www.twitch.tv/are_xu'>
-        <FontAwesomeIcon id='icon' icon={faTwitch} style={{ color: 'white' }} />
+      <a href='https://twitter.com/are_xu'>
+        <FontAwesomeIcon id='icon' icon={faTwitter} style={{ color: 'white' }} />
       </a>
       <br></br>
       <a href='https://www.youtube.com/@are_xu'>
@@ -72,14 +73,14 @@ function Home() {
       </div>
       <div className='right-side-container'>
         <div className='big-picture'>
-          <a href='/portfolio'>
+          <Link to='/portfolio'>
             <img
               onMouseEnter={toggleText}
               onMouseLeave={toggleText}
               src={picture}
               id='big-picture'
               alt="showcasing" />
-          </a>
+          </Link>
         </div>
         <div className='hidden-text'>
           {showText && <p id="hidden-text">click to check my <strong> Portfolio</strong></p>}

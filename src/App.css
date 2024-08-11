@@ -12,7 +12,7 @@ body {
 }
 
 main {
-    flex: 1; /* Takes up the remaining space */
+    flex: 1;
 }
 
 footer {
