@@ -8,7 +8,6 @@ const OneCarousel = ({ referenceSheet }) => {
     const [images, setImages] = useState([]);
 
     useEffect(() => {
-        // Fetch images from referenceSheet prop
         if (referenceSheet) {
             setImages(referenceSheet);
         }

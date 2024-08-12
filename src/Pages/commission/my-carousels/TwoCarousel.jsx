@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
-// import './twocarousel.css';
 
 
 const TwoCarousel = ({ props }) => {
@@ -22,21 +21,21 @@ const TwoCarousel = ({ props }) => {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 1024, // Tablet or larger screens
+                breakpoint: 1024, 
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                 }
             },
             {
-                breakpoint: 768, // Mobile screens
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                 }
             },
             {
-                breakpoint: 480, // Extra small screens
+                breakpoint: 480, 
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,

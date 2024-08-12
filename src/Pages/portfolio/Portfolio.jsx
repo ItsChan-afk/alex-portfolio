@@ -28,7 +28,6 @@ const Portfolio = () => {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading images: {error.message}</p>;
 
-  // Filter images based on type
   const heightImages = images.filter(img => img.type === 'height');
   const widthImages = images.filter(img => img.type === 'width');
 
@@ -44,7 +43,6 @@ const Portfolio = () => {
           ))}
         </div>
 
-        {/* Container for images with bigger width */}
         <div className='gallery-for-width'>
           {widthImages.map((item, index) => (
             <div className='pic' key={index}>

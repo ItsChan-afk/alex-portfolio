@@ -7,7 +7,6 @@ const Vtubers = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Fetch data from public directory
     fetch('/resources/vtubers.json')
       .then(response => {
         if (!response.ok) {

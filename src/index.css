@@ -1,7 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap');
 
-*{
+* {
   background-color: #140F12;
   font-family: 'Barlow', sans-serif;
   color: white;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* Prevent horizontal overflow */
+  overflow-y: auto;
+  /* Allow vertical scrolling if necessary */
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
 }
