@@ -10,7 +10,7 @@ import {
 // Lazy load components
 const Home = lazy(() => import('../../home/Home'));
 const Portfolio = lazy(() => import('../../portfolio/Portfolio'));
-const Projects = lazy(() => import('../../projects/Projects'));
+// const Projects = lazy(() => import('../../projects/Projects'));
 const Vtubers = lazy(() => import('../../vtubers/Vtubers'));
 const Commission = lazy(() => import('../../commission/Commission'));
 
@@ -36,9 +36,9 @@ function Navbar() {
                     <li className='nav-item'>
                         <Link to='/portfolio' onClick={toggleMenu}>Portfolio</Link>
                     </li>
-                    <li className='nav-item'>
+                    {/* <li className='nav-item'>
                         <Link to='/project' onClick={toggleMenu}>Projects</Link>
-                    </li>
+                    </li> */}
                     <li className='nav-item'>
                         <Link to='/commission' onClick={toggleMenu}>Commission</Link>
                     </li>
@@ -52,7 +52,7 @@ function Navbar() {
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/portfolio' element={<Portfolio />} />
-                    <Route path='/project' element={<Projects />} />
+                    {/* <Route path='/project' element={<Projects />} /> */}
                     <Route path='/commission' element={<Commission />} />
                     <Route path='/vtubers' element={<Vtubers />} />
                 </Routes>
